@@ -1,0 +1,6 @@
+safe: true
+baseurl: /
+url: http://www.integral-therapy.com
+permalink: /:title.html
+lsi: false
+pygments: true
