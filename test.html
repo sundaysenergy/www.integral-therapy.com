@@ -1,0 +1,8 @@
+---
+layout: page
+title: Test
+---
+
+{% sorted_for node in site.pages reversed sort_by:weight %}
+  {{ node.title }}
+{% endsorted_for %}
