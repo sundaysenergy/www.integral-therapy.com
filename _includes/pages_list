@@ -1,13 +1,17 @@
-{% for node in pages_list %}
-  {% if node.title != null %}
-    {% if group == null or group == node.group %}
-      {% if page.url == node.url %}
-      <li class="leaf"><a href="{{ BASE_PATH }}{{node.url}}" class="active" title="{{node.menu}}">{{node.menu}}</a></li>
-      {% else %}
-      <li class="leaf"><a href="{{ BASE_PATH }}{{node.url}}" title="{{node.menu}}">{{node.menu}}</a></li>
+{% for weight in (1..10) %}
+  {% for node in pages_list %}
+    {% if node.title != null %}
+      {% if group == null or group == node.group %}
+        {% if node.weight == weight %}
+          {% if page.url == node.url %}
+          <li class="leaf"><a href="{{ BASE_PATH }}{{node.url}}" class="active" title="{{node.menu}}">{{node.menu}}</a></li>
+          {% else %}
+          <li class="leaf"><a href="{{ BASE_PATH }}{{node.url}}" title="{{node.menu}}">{{node.menu}}</a></li>
+          {% endif %}
+        {% endif %}
       {% endif %}
     {% endif %}
-  {% endif %}
+  {% endfor %}
 {% endfor %}
 {% assign pages_list = nil %}
 {% assign group = nil %}
