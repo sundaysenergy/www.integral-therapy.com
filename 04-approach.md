@@ -4,7 +4,7 @@ title: Integral Psychology - the integrative approach to health | Therapy Minnea
 menu: Integral Approach
 group: navigation
 weight: 4
-permalink: /approach
+permalink: /approach.html
 ---
 
 Integral Psychology - the integrative approach to health
