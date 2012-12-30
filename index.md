@@ -9,8 +9,7 @@ permalink: /a.html
 ---
 #Therapy in Minneapolis area 
 
->"The world breaks everyone and afterward many are strong in the broken places."
-- Ernest Hemingway
+>"The world breaks everyone and afterward many are strong in the broken places." <br /> - Ernest Hemingway
 
 All humans' lives go through periods of challenge and difficulty. Without struggle there would be no growth. Our aim is to help people of any age: 
 
