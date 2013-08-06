@@ -1,0 +1,307 @@
+/* @override http://www.integral-therapy.com/sites/all/themes/integral-therapy/style.css */
+
+/* important universal styles */
+/*--------------------------------------------------------------------*/
+/* Remove padding and margin */
+* { margin: 0; padding: 0; }
+
+/* Class for floats and clearing floats */
+.left { float: left; }
+.right { float: right; }
+.clear { clear:both; }
+.pad { margin: 10px; }
+
+/* Remove border around linked images */
+img { border: 0; }
+
+/**
+*   LAYOUT and basic colors, images, etc.
+**/
+body { 	background-color: rgb(212,218,210); }
+	
+#page_wrapper {
+	width: 900px; 
+	margin: 0 auto; 
+	background: url(../media/bg_shadow.jpg) repeat-y center top;
+	}
+
+#rndtop {
+	background: url(../media/rndtop.jpg) no-repeat center top;
+	margin: 0; 
+	padding: 0; 
+	}
+
+#rndbot { 
+	background: url(../media/rndbot.jpg) no-repeat center bottom !important; 
+	margin: 0; 
+	padding: 30px; 
+	}
+	
+#contain1 { background: url(../media/bg_text.png) repeat center center; margin: 0; padding: 0; margin-top: -10px; margin-bottom: -20px; }
+#contain2 { background: url(../media/bg_sidebar.png) repeat-y left top; margin: 0; padding: 0; }
+
+body.sidebar-left #textualcontent { /* if #textualcontent  and #sidebar-left are showing */
+ 	margin: 0 0 0 200px;
+	}
+body.sidebar-right #textualcontent { /* if #textualcontent  and #sidebar-right are showing */
+ 	margin: 0 200px 0 0;
+  	}
+body.both-sidebars #textualcontent { /* if #textualcontent , #sidebar-left and #sidebar-right are showing */
+	margin: 0 200px;
+	}
+/*--------------------------------------------------------------------------*/
+/* =Common styles */
+/* Typography and sich */
+body {
+	font: .75em Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: black;
+	}
+
+/* =Links */
+a, a:link, a:visited {
+	color: #DADAD2;
+	text-decoration: none;
+	}
+a:hover, a:focus {
+	background: #DADAd2;
+	color: #0e3c59 
+	}
+/*
+a:active, a.active { 
+	color: #1b66a6;
+	}
+*/
+#header #logo-title a, #header #logo-title a:hover { color: none; border: none; margin: 0; padding: 0; background: none; }	
+
+		
+/* =Headlines and Headline links */
+/* =Headings
+-----------------------------------------------------------------------------*/
+h1, h2, h3, h4, h5, h6 { font-size: 1em; color: #471813; font-family: georgia, times, "Times New Roman", times-roman, serif; }
+h1 { font-size: 1.5em; padding: 20px 0 10px 0; }
+h2 { font-size: 1.5em; padding: 15px 0 7px 0;}
+h3 { font-size: 1.25em; padding: 10px 0 5px 0; }
+h4 {}
+h5 {}
+h5 {}
+
+/* =Header styles */
+/*--------------------------------------------------------------------*/
+#header { background: white url(../media/header.png) no-repeat center top; padding-top: 20px; }
+#logo-title {}
+#logo-title a { border: none; }
+#logo { margin-left: 10px; margin-bottom: 10px; border: none; }
+#name-and-slogan { }
+#site-name { background-color: #e3d09d;}	
+#site-name a { color: #52abe4;}
+#site-name a:hover { }
+#site-slogan { font-size: 150%; }
+#search {
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;  
+	}
+
+/* = header Menu styles */
+
+/* =Main Nav
+-----------------------------------------------------------------------------*/
+#navigation { padding: 0px 10px; background: #471813 url(../media/nav_grad.png) repeat-x left top; }	
+	
+/* = Primary menu styles */
+#primary { margin: 0; padding: 10px 0; }
+#primary ul { margin: 0; padding: 0; }
+#primary li { margin: 0; display:inline; border-right: 1px solid white; }
+#primary a { margin: 0 10px; color: white; padding: 3px 0; text-transform: uppercase; }
+#primary a:hover { color: white; border-bottom: 3px solid white;}
+
+/* =Sub Nav
+-----------------------------------------------------------------------------*/
+/* = Secondary Menu styles */
+#secondary { margin: 0; }
+#secondary ul { margin: 0; }
+#secondary li { margin: 0; display:inline;}
+#secondary li a { margin: 0; }
+#secondary a:hover { }
+
+/* =Breadcrumb */
+#header-region { padding: 0px 10px; background: #471813 url(../media/nav_grad.png) repeat-x left top; }
+.breadcrumb { color:white; padding: 5px 10px; }
+.breadcrumb a { color: white; }
+.breadcrumb a:hover { text-decoration: underline }
+
+
+/* =Main Content
+-----------------------------------------------------------------------------*/
+#mission { }
+
+#textualcontent { padding-bottom: 30px; }
+#textualcontent .pad { margin: 10px 20px; }
+
+#textualcontent a,
+#textualcontent h2.title a {
+	color: #471813;
+	background: none;
+	text-decoration: underline;
+	}
+#textualcontent a:hover,
+#textualcontent h2.title a:hover {
+	background: #471813;
+	color: white;
+	text-decoration: none;
+	}	
+
+.column, .sidebar { display: inline; }
+
+#textualcontent ul, #textualcontent ol { margin: 0; margin-left: 25px;}
+#textualcontent ul.primary, #textualcontent ul.galleries { margin-left: 0px;}
+#textualcontent p { margin-bottom: 10px;}
+#textualcontent h2.title { }
+#textualcontent dl { margin: 0 10px 5px 10px; }
+#textualcontent dl dt a { margin: 0; color: rgb(93,124,31);}
+#textualcontent dl dd { padding-left: 10px; margin-bottom: 5px;}
+#textualcontent .node div.links {
+	text-transform: uppercase;
+	font-size: 80%;
+	margin-top: 10px;
+	}
+
+#sidebar-left, #sidebar-right { width: 200px; }
+
+/* SIDEBAR MENU, ETC. STYLES */
+.block { margin-bottom: 20px; }
+#sidebar-left .block h2.title {}
+#sidebar-left .blockinner {}
+#sidebar-left .block .content {}
+#sidebar-left .block .content ul.menu { margin: 0; padding: 0; padding-left: 20px; }
+#sidebar-left ul.menu li {}
+#sidebar-left ul.menu li a  {}
+#sidebar-left ul.menu li a:hover {}
+#sidebar-left ul.menu li ul.menu li a { }
+#sidebar-left ul.menu li.expanded ul.menu li.expanded ul.menu li.leaf a { }
+
+
+/* =Secondary Content
+-----------------------------------------------------------------------------*/
+/* Node, Block, Content styles */
+.node { margin: 10px 0 25px 0; }
+.node .content p { margin: 10px 0 25px 0; }
+.sticky {}
+.profile {}
+	
+/* =List Formatting Information
+-----------------------------------------------------------------------------*/
+.field-label {
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 80%;
+	margin-top: 10px;
+	}
+.field-item {
+	padding-left: 10px;
+	margin: 0;
+	margin-bottom: 15px;
+	} 
+.field-item p {
+	margin: 0;
+	margin-bottom: 7px;
+	}
+#main div.node div.links ul.links {padding:0;}
+
+/* =Footer styles */
+/*--------------------------------------------------------------------*/
+#footer {
+	float: none;
+	clear: both;
+	padding: 10px;
+	margin-top: 0px;
+	background: #828e52 url(../media/foot.jpg) no-repeat center bottom; 
+	}
+#footer a { color: white; border-bottom: 1px solid white; padding-bottom: 3px; }
+#footer a:hover { color: rgb(43,73,6); border-bottom: 3px solid rgb(43,73,6); padding-bottom: 3px; }	
+
+/* =Forms
+-----------------------------------------------------------------------------*/
+#main #node-form div.node-form ul {
+	padding-left: 10px;
+	}
+
+/* =Tables
+-----------------------------------------------------------------------------*/
+
+table {
+	margin: 10px; 
+	border-spacing: 0;
+	border-collapse: collapse;
+	}
+td {
+	margin: 0;
+	padding: 3px;
+	text-align: left;
+	font-weight: normal;
+	}
+
+/* =Misc 1
+-----------------------------------------------------------------------------*/
+ul.links li {padding: 0; list-style-type: none;}
+ul.links { padding: 0; }
+
+/* taxonomy printing styles */
+span.submitted {}
+div.taxonomy {
+	margin-bottom: 7px;
+	text-transform: uppercase;
+	font-size: 85%; 
+	}
+
+/* ADMIN PAGE STYLES */
+#textualcontent .help p, #textualcontent .admin .compact-link a { }
+.admin .admin-panel .admin-list dt a { }
+.admin .admin-panel .admin-list dt a:hover { }
+.admin .admin-panel .admin-list dd { }
+
+/* messages */
+.messages { padding: 10px; }
+
+
+/* =Misc 2
+-----------------------------------------------------------------------------*/
+ul.images li { padding: 3em }
+ul.images li h3 a { font-size: 1em; font-weight: normal; }
+
+
+/* =Misc 3 - fixing misc. clearing issues
+-----------------------------------------------------------------------------*/
+#textualcontent .form-item label { clear: none; }
+#textualcontent .node-form .standard { clear: none; }
+#textualcontent .profile { clear: none; }
+#textualcontent .form-item {clear:none;}
+#textualcontent .theme-settings-bottom { clear: none; }
+#textualcontent .node { clear: none; }
+.resizable-textarea {display:inline;}
+.resizable-textarea textarea {width: 93% !important;}
+form#contact-mail-page .form-item .resizable-textarea textarea#edit-message { 
+	padding: 0 !important;
+	margin: 0 !important;
+	float: none !important;
+	clear: none !important;
+	display: inline !important;
+	}
+	
+/* MARKDOWN FORMATTING
+-----------------------------------------------------------------------------*/
+img[alt=mandala] {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  height: 87px;
+  width: 86px;
+}
+
+li.leaf{
+  list-style-type:square;
+  list-style-image:url(../media/menu-leaf.png);
+  padding:0.2em 0.5em 0 0;margin:0;
+}
+li a.active {
+  color: #000;
+}

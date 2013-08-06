@@ -1,0 +1,23 @@
+{
+  "stylesheets" : {
+    "default" : [
+      "style.css",
+      "layout.css"
+    ],
+   
+    "widgets" : {
+      "google_prettify" : "twitter-bootstrap.css"
+    }
+    
+  },
+
+  "javascripts" : {
+    "default" : [
+    ]
+  },
+  
+  "manifest" : {
+    "author" : "Integral Therapy",
+    "website" : "http://www.integral-therapy.com"
+  }
+}
