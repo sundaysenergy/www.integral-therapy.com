@@ -1,5 +1,5 @@
 ---
-layout: page
+
 title: Therapy for depression, anxiety and more in Minneapolis | Therapy Minneapolis - Integral Psychotherapy
 menu: Services
 breadcrumb: true
@@ -14,18 +14,18 @@ breadcrumb: true
 - Anxiety
 - Relationship issues
 - In-depth analytic work/cultivation of self-knowledge
-- Trauma &amp; post-traumatic stress disorder 
+- Trauma &amp; post-traumatic stress disorder
 - Attention Deficit/Hyperactivity (ADHD)
 - Substance abuse
-- Eating Disorders 
+- Eating Disorders
 - Anger problems
 - Bipolar Disorder
 - Lack of direction, sense of doubt, general malaise
 - Career questioning
 - Spiritual/religious questioning
-   
-&nbsp;   
-   
+
+&nbsp;
+
 **Family &amp; Couples Counseling for:**
 
 - Relationship difficulties
@@ -35,7 +35,7 @@ breadcrumb: true
 - Pre-marriage counseling
 - Parent concerns
 - Commitment difficulties
-   
-&nbsp;   
-   
+
+&nbsp;
+
 \* Referals and help finding appropriate help and support services are gladly provided to the public free of charge.

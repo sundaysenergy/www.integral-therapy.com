@@ -1,5 +1,5 @@
 ---
-layout: page
+
 title: Integral Psychology - the integrative approach to health | Therapy Minneapolis - Integral Psychotherapy
 menu: Integral Approach
 breadcrumb: true

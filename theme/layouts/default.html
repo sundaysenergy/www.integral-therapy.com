@@ -9,7 +9,12 @@
     <meta name="robots" content="index,follow" />
     <meta name="DC.title" content="Therapy in Minneapolis area | Therapy Minneapolis - Integral Psychotherapy" />
     <link rel="shortcut icon" href="{{urls.media}}/favicon.ico" type="image/x-icon" />
-    {{{ stylesheets.all }}}
+
+    {{# stylesheets.load }}
+      layout.css
+      style.css
+    {{/ stylesheets.load }}
+
   </head>
 
   <body class="not-front not-logged-in ntype-page sidebar-left">
@@ -42,7 +47,7 @@
             <!-- /navigation -->
             {{# page.breadcrumb }}
             <div id="header-region">
-              <div class="breadcrumb"><a href="/">Home</a></div>          			        		
+              <div class="breadcrumb"><a href="/">Home</a></div>
             </div>
             {{/ page.breadcrumb }}
 
@@ -60,23 +65,23 @@
               <!-- start side bar left -->
               <div id="sidebar-left" class="column sidebar left">
                 <div class="pad">
-                  <div id="block-menu-47" class="block block-menu">  
+                  <div id="block-menu-47" class="block block-menu">
                     <div class="blockinner">
                       <h2 class="title"> Main Menu </h2>
                       <div class="content">
-                      
-                        <ul class="menu">                                               
-                        {{# data.navigation?to_pages?mark_active_page }}
+
+                        <ul class="menu">
+                        {{# data.navigation?to_pages }}
                         {{# is_active_page }}
                           <li class="leaf"><a href="{{url}}" class="active" title="{{title}}">{{menu}}</a></li>
                         {{/ is_active_page }}
                         {{^ is_active_page }}
                           <li class="leaf"><a href="{{url}}" title="{{title}}">{{menu}}</a></li>
                         {{/ is_active_page }}
-                        {{/ data.navigation?to_pages?mark_active_page }}
+                        {{/ data.navigation?to_pages }}
                         </ul>
-                        
-                      </div>    
+
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -84,12 +89,12 @@
               <!-- /sidebar-left -->
 
               <!-- start sidebar right area -->
-              <!-- /sidebar-right -->       
+              <!-- /sidebar-right -->
 
               <!-- main text and content area -->
               <div id="textualcontent" class="">
                 <div class="pad">
-                
+
                 {{{ content }}}
 
                 </div>

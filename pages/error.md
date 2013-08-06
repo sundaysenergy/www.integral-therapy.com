@@ -1,5 +1,5 @@
 ---
-layout: page
+
 title: Therapy for depression, anxiety and more in Minneapolis | Therapy Minneapolis - Integral Psychotherapy
 breadcrumb: true
 ---
