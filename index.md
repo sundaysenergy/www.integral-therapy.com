@@ -1,4 +1,5 @@
 ---
+
 layout: page
 title: Therapy in Minneapolis area | Therapy Minneapolis - Integral Psychotherapy
 no_breadcrumb: true
@@ -9,7 +10,7 @@ permalink: /a.html
 ---
 #Therapy in Minneapolis area 
 
->"The world breaks everyone and afterward many are strong in the broken places." <br /> - Ernest Hemingway
+>"The world breaks everyone and afterward many are strong in the broken places." <br /> <small class="author">- Ernest Hemingway</small>
 
 All humans' lives go through periods of challenge and difficulty. Without struggle there would be no growth. Our aim is to help people of any age: 
 
@@ -18,7 +19,7 @@ All humans' lives go through periods of challenge and difficulty. Without strugg
 * Build more satisfying relationships and more effective communication
 * Find the sense of direction and meaning that allows one to thrive.
 
-![mandala](/sites/www.integral-therapy.com/files/mandala.jpg)
+![mandala](files/mandala.jpg)
 
 ### Integral Psychotherapy offers therapy and counseling for:
 
