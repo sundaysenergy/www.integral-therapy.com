@@ -38,7 +38,7 @@ Office located in south Minneapolis near uptown, just off 35W, and on direct bus
 
 ### Cost:
 
-Reduced rates and sliding scale fees are available to make services affordable for all income levels.  The range is $30 - $125 depending on what is affordable for the client.  We usually do not accept insurance to minimize our adminsistrative costs thus keeping prices down for all clients.  Occassionally we make exceptions to this, as we are in-network with most insurance companies.
+We offer services based on a sliding scale to make services affordable for all income levels. Our current fee range is $40 - $125.  We also accept insurance, depending on the specifics of the plan.  [Contact us](/contact) for details.
 
 ### Scheduling:
 
